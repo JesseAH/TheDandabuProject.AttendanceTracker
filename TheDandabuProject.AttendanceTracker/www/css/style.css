@@ -1,0 +1,14 @@
+
+.item h3 {
+  height: 15px;
+  width: 75px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.my-item.item {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+

@@ -1,0 +1,12 @@
+<ion-view view-title="The Raw Data">
+    <ion-content>
+        <br />
+        <ion-list>
+            <ion-item class="my-item" ng-repeat="item in attendanceData" type="item-text-wrap">
+                <h3>{{item.date}}</h3>
+                <h2>Girls: {{item.girls}}</h2>
+                <h2>Boys: {{item.boys}}</h2>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.thedandabuproject.attendancetracker" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <name>The Dandabu Project - Attendace Tracker</name>
+    <description> We love Dandabu! In order to provide continued assistance to the dedicated students and teachers in Dandabu, a rural village in Sierra Leone where I lived 2 years while working for the Peace Corps, I built "The Dandabu Project" App. The app provides a platform for local teachers to record attendance via SMS text. Teachers simply take attendance each day, and then text those attendance numbers. On the web, we have set up a program that listens for those sms messages and parses them, pulling out the student's attendance data for that day. In a rural, impoverished village with historically limited access to education, the village has made great strides in recent years despite significant hardships, including the Ebola crisis in which Sierra Leone was hit hard. This attendance tracker app will be a helpful tool in  "The Dandabu Project," supporting our efforts to encourage students and teachers to make education a priority.
+    </description>
+    <author email="you@example.com" href="http://example.com.com/">
+     Jesse Allers-Hatlie, Kristen Carpentier
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="KeepRunning" value="True" />
+    <preference name="ShowTitle" value="True" />
+    <preference name="InAppBrowserStorageEnabled" value="True" />
+    <preference name="SuppressesIncrementalRendering" value="True" />
+    <preference name="windows-target-version" value="8.1" />
+    <plugin name="cordova-plugin-device" spec="~1.1.1" />
+    <plugin name="cordova-plugin-console" spec="~1.0.2" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
+    <plugin name="cordova-plugin-statusbar" spec="~2.1.0" />
+    <plugin name="ionic-plugin-keyboard" spec="~1.0.8" />
+    <preference name="target-device" value="handset" />
+    <preference name="deployment-target" value="" />
+    <preference name="SplashScreen" value="screen" />
+    <plugin name="cordova-plugin-inappbrowser" version="1.2.1" />
+    <icon src="/icon.png" />
+</widget>
